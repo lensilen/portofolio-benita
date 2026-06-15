@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Organization Landing Page Preview</title>
+  <desc id="desc">A campus organization landing page mockup with hero content and program sections.</desc>
+  <rect width="1280" height="720" fill="#fff7f7"/>
+  <rect x="112" y="92" width="1056" height="536" rx="28" fill="#ffffff" stroke="#ead2d5" stroke-width="4"/>
+  <rect x="160" y="144" width="120" height="16" rx="8" fill="#c91d2e"/>
+  <rect x="812" y="144" width="66" height="10" rx="5" fill="#6f6063"/>
+  <rect x="908" y="144" width="66" height="10" rx="5" fill="#6f6063"/>
+  <rect x="1004" y="132" width="94" height="34" rx="17" fill="#c91d2e"/>
+  <text x="162" y="270" fill="#241516" font-family="Arial, sans-serif" font-size="54" font-weight="700">Build with purpose</text>
+  <rect x="162" y="318" width="410" height="16" rx="8" fill="#6f6063"/>
+  <rect x="162" y="352" width="330" height="16" rx="8" fill="#caa5aa"/>
+  <rect x="162" y="414" width="142" height="42" rx="21" fill="#c91d2e"/>
+  <rect x="684" y="228" width="352" height="230" rx="28" fill="#f8d7dc"/>
+  <circle cx="770" cy="330" r="50" fill="#ff4d5f"/>
+  <rect x="858" y="290" width="120" height="14" rx="7" fill="#241516"/>
+  <rect x="858" y="328" width="98" height="12" rx="6" fill="#6f6063"/>
+  <rect x="858" y="362" width="130" height="12" rx="6" fill="#6f6063"/>
+</svg>

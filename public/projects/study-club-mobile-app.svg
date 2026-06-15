@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Study Club Mobile App Preview</title>
+  <desc id="desc">A mobile app preview with phone screens for study club sessions and progress.</desc>
+  <rect width="1280" height="720" fill="#111827"/>
+  <rect x="252" y="82" width="260" height="556" rx="42" fill="#eef2ff"/>
+  <rect x="282" y="130" width="200" height="448" rx="24" fill="#fff7f7"/>
+  <rect x="314" y="168" width="96" height="14" rx="7" fill="#c91d2e"/>
+  <rect x="314" y="230" width="136" height="84" rx="18" fill="#f8d7dc"/>
+  <rect x="314" y="352" width="136" height="16" rx="8" fill="#241516"/>
+  <rect x="314" y="386" width="112" height="12" rx="6" fill="#6f6063"/>
+  <rect x="768" y="82" width="260" height="556" rx="42" fill="#eef2ff"/>
+  <rect x="798" y="130" width="200" height="448" rx="24" fill="#182235"/>
+  <rect x="830" y="168" width="96" height="14" rx="7" fill="#ff4d5f"/>
+  <rect x="830" y="236" width="136" height="52" rx="16" fill="#22304a"/>
+  <rect x="830" y="320" width="136" height="52" rx="16" fill="#22304a"/>
+  <rect x="830" y="404" width="136" height="52" rx="16" fill="#ff4d5f"/>
+  <circle cx="640" cy="360" r="72" fill="#ff4d5f"/>
+  <path d="M618 326l58 34-58 34z" fill="#fff7f7"/>
+</svg>

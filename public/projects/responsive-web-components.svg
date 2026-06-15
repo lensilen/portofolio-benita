@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Responsive Web Components Preview</title>
+  <desc id="desc">A component library layout with cards, buttons, navigation, and red UI accents.</desc>
+  <rect width="1280" height="720" fill="#141b2d"/>
+  <rect x="104" y="84" width="1072" height="552" rx="30" fill="#fff7f7"/>
+  <rect x="160" y="146" width="430" height="76" rx="20" fill="#ffffff" stroke="#ead2d5" stroke-width="3"/>
+  <rect x="198" y="176" width="130" height="16" rx="8" fill="#c91d2e"/>
+  <rect x="376" y="176" width="150" height="16" rx="8" fill="#caa5aa"/>
+  <rect x="650" y="146" width="322" height="76" rx="20" fill="#241516"/>
+  <rect x="688" y="176" width="96" height="16" rx="8" fill="#ff4d5f"/>
+  <rect x="828" y="176" width="96" height="16" rx="8" fill="#fff7f7"/>
+  <rect x="160" y="286" width="256" height="248" rx="22" fill="#ffffff" stroke="#ead2d5" stroke-width="3"/>
+  <rect x="192" y="326" width="98" height="98" rx="20" fill="#f8d7dc"/>
+  <rect x="192" y="462" width="170" height="16" rx="8" fill="#241516"/>
+  <rect x="192" y="496" width="126" height="12" rx="6" fill="#6f6063"/>
+  <rect x="512" y="286" width="256" height="248" rx="22" fill="#ffffff" stroke="#ead2d5" stroke-width="3"/>
+  <rect x="544" y="326" width="98" height="98" rx="20" fill="#c91d2e"/>
+  <rect x="544" y="462" width="170" height="16" rx="8" fill="#241516"/>
+  <rect x="544" y="496" width="126" height="12" rx="6" fill="#6f6063"/>
+  <rect x="864" y="286" width="256" height="248" rx="22" fill="#ffffff" stroke="#ead2d5" stroke-width="3"/>
+  <rect x="896" y="326" width="98" height="98" rx="20" fill="#f8d7dc"/>
+  <rect x="896" y="462" width="170" height="16" rx="8" fill="#241516"/>
+  <rect x="896" y="496" width="126" height="12" rx="6" fill="#6f6063"/>
+</svg>

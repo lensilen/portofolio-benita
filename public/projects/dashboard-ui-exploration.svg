@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard UI Exploration Preview</title>
+  <desc id="desc">A UI exploration board with dashboard wireframes, charts, and table cards.</desc>
+  <rect width="1280" height="720" fill="#fff7f7"/>
+  <rect x="116" y="86" width="1048" height="548" rx="30" fill="#ffffff" stroke="#ead2d5" stroke-width="4"/>
+  <rect x="164" y="142" width="160" height="436" rx="22" fill="#241516"/>
+  <rect x="202" y="188" width="84" height="14" rx="7" fill="#ff4d5f"/>
+  <rect x="202" y="266" width="72" height="10" rx="5" fill="#caa5aa"/>
+  <rect x="202" y="320" width="90" height="10" rx="5" fill="#caa5aa"/>
+  <rect x="202" y="374" width="68" height="10" rx="5" fill="#caa5aa"/>
+  <rect x="380" y="142" width="310" height="142" rx="22" fill="#f8d7dc"/>
+  <rect x="424" y="194" width="108" height="18" rx="9" fill="#241516"/>
+  <rect x="424" y="230" width="198" height="12" rx="6" fill="#6f6063"/>
+  <rect x="738" y="142" width="310" height="142" rx="22" fill="#c91d2e"/>
+  <rect x="782" y="194" width="108" height="18" rx="9" fill="#ffffff"/>
+  <rect x="782" y="230" width="198" height="12" rx="6" fill="#f8d7dc"/>
+  <rect x="380" y="340" width="668" height="178" rx="22" fill="#fff7f7" stroke="#ead2d5" stroke-width="3"/>
+  <path d="M426 460h68v-54h68v-34h68v78h68v-98h68v108" fill="none" stroke="#c91d2e" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="808" y="390" width="168" height="16" rx="8" fill="#241516"/>
+  <rect x="808" y="434" width="126" height="12" rx="6" fill="#6f6063"/>
+  <rect x="808" y="468" width="150" height="12" rx="6" fill="#6f6063"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Social Media Design System Preview</title>
+  <desc id="desc">A design system board with social media templates, colors, and typography samples.</desc>
+  <rect width="1280" height="720" fill="#141b2d"/>
+  <rect x="98" y="82" width="1084" height="556" rx="30" fill="#fff7f7"/>
+  <text x="154" y="162" fill="#241516" font-family="Arial, sans-serif" font-size="36" font-weight="700">Social Media Kit</text>
+  <rect x="154" y="214" width="260" height="260" rx="26" fill="#c91d2e"/>
+  <circle cx="284" cy="314" r="58" fill="#fff7f7"/>
+  <rect x="212" y="406" width="144" height="18" rx="9" fill="#fff7f7"/>
+  <rect x="470" y="214" width="260" height="260" rx="26" fill="#241516"/>
+  <circle cx="600" cy="314" r="58" fill="#ff4d5f"/>
+  <rect x="528" y="406" width="144" height="18" rx="9" fill="#fff7f7"/>
+  <rect x="786" y="214" width="260" height="260" rx="26" fill="#ffffff" stroke="#ead2d5" stroke-width="4"/>
+  <circle cx="916" cy="314" r="58" fill="#f8d7dc"/>
+  <rect x="844" y="406" width="144" height="18" rx="9" fill="#241516"/>
+  <rect x="154" y="530" width="96" height="34" rx="17" fill="#c91d2e"/>
+  <rect x="274" y="530" width="96" height="34" rx="17" fill="#241516"/>
+  <rect x="394" y="530" width="96" height="34" rx="17" fill="#f8d7dc"/>
+</svg>

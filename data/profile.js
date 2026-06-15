@@ -1,10 +1,7 @@
 export const profile = {
   name: "Benita Aryani",
   role: "Front End Developer",
-  tagline:
-    "A portfolio of front-end websites, mobile interfaces, and UI design work.",
-  about:
-    "I focus on turning ideas into clean, responsive interfaces with attention to structure, usability, and visual consistency. This portfolio is organized around front-end web projects, mobile app work, and UI design explorations.",
+  tagline: "Ctrl + Z doesn't work in real life, so I make sure my code does.",
   email: "benitaaryani123@gmail.com",
   location: "Jakarta, Indonesia",
   social: {

@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
+    "checkJs": false,
+    "jsx": "preserve",
+    "moduleResolution": "bundler",
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "include": ["app/**/*.js", "app/**/*.jsx", "data/**/*.js"],
+  "exclude": ["node_modules"]
 }
