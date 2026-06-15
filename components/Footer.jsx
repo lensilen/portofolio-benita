@@ -1,0 +1,63 @@
+import { Mail } from "lucide-react";
+import { profile } from "@/data/profile";
+
+function GithubIcon({ size = 18 }) {
+  return (
+    <svg
+      aria-hidden="true"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.09.68-.22.68-.49v-1.73c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.56 2.35 1.11 2.92.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.31 9.31 0 0 1 12 6.95c.85 0 1.7.12 2.5.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.8c0 .27.18.59.69.49A10.15 10.15 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z" />
+    </svg>
+  );
+}
+
+function LinkedinIcon({ size = 18 }) {
+  return (
+    <svg
+      aria-hidden="true"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M6.94 8.98H3.86V20h3.08V8.98ZM5.4 4A1.78 1.78 0 1 0 5.4 7.56 1.78 1.78 0 0 0 5.4 4Zm5.62 4.98H8.07V20h3.08v-5.78c0-1.52.29-3 2.17-3 1.86 0 1.88 1.74 1.88 3.1V20h3.08v-6.4c0-3.14-.67-5.56-4.35-5.56-1.77 0-2.95.97-3.44 1.89h-.04l-.43-1.95Z" />
+    </svg>
+  );
+}
+
+const links = [
+  { label: "LinkedIn", href: profile.social.linkedin, Icon: LinkedinIcon },
+  { label: "GitHub", href: profile.social.github, Icon: GithubIcon },
+  { label: "Email", href: `mailto:${profile.email}`, Icon: Mail },
+];
+
+export default function Footer() {
+  return (
+    <footer className="border-t border-[var(--border)] px-6 py-8">
+      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-5 sm:flex-row">
+        <p className="text-sm font-semibold text-[var(--foreground)]">
+          Connect
+        </p>
+        <div className="flex items-center gap-3">
+          {links.map(({ label, href, Icon }) => (
+            <a
+              key={label}
+              href={href}
+              target={label === "Email" ? undefined : "_blank"}
+              rel={label === "Email" ? undefined : "noopener noreferrer"}
+              aria-label={label}
+              title={label}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)] text-[var(--muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            >
+              <Icon size={18} aria-hidden="true" />
+            </a>
+          ))}
+        </div>
+      </div>
+    </footer>
+  );
+}
