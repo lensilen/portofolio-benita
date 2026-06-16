@@ -3,31 +3,31 @@
 :root {
   --cursor-x: 50vw;
   --cursor-y: 28vh;
-  --background: #fff7f7;
-  --foreground: #241516;
-  --muted: #6f6063;
-  --accent: #c91d2e;
-  --accent-hover: #9f1422;
-  --accent-soft: #f8d7dc;
+  --background: #ffffff;
+  --foreground: #2d3250;
+  --muted: #6f7d9d;
+  --accent: #f6b17a;
+  --accent-hover: #d8945e;
+  --accent-soft: rgb(246 177 122 / 0.2);
   --card: #ffffff;
-  --card-hover: rgb(201 29 46 / 0.06);
-  --border: #ead2d5;
-  --border-strong: #caa5aa;
-  --shadow: rgb(119 22 32 / 0.12);
+  --card-hover: rgb(111 125 157 / 0.08);
+  --border: rgb(66 71 105 / 0.14);
+  --border-strong: #6f7d9d;
+  --shadow: rgb(45 50 80 / 0.12);
 }
 
 :root[data-theme="dark"] {
-  --background: #111827;
-  --foreground: #eef2ff;
-  --muted: #94a3b8;
-  --accent: #ff4d5f;
-  --accent-hover: #ff7a87;
-  --accent-soft: rgb(255 77 95 / 0.14);
-  --card: #182235;
-  --card-hover: rgb(255 77 95 / 0.07);
-  --border: #263349;
-  --border-strong: #506078;
-  --shadow: rgb(0 0 0 / 0.28);
+  --background: #2d3250;
+  --foreground: #ffffff;
+  --muted: #c8d0e7;
+  --accent: #f6b17a;
+  --accent-hover: #ffd0a4;
+  --accent-soft: rgb(246 177 122 / 0.16);
+  --card: #424769;
+  --card-hover: rgb(246 177 122 / 0.08);
+  --border: rgb(255 255 255 / 0.13);
+  --border-strong: #6f7d9d;
+  --shadow: rgb(0 0 0 / 0.26);
 }
 
 html {
@@ -37,7 +37,7 @@ html {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 20% 0%, color-mix(in srgb, var(--accent) 11%, transparent), transparent 28rem),
+    radial-gradient(circle at 20% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 28rem),
     var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
@@ -51,7 +51,7 @@ body {
   background:
     radial-gradient(
       34rem circle at var(--cursor-x) var(--cursor-y),
-      color-mix(in srgb, var(--accent) 18%, transparent),
+      color-mix(in srgb, var(--accent) 16%, transparent),
       transparent 62%
     );
   opacity: 0.8;
@@ -62,7 +62,7 @@ body {
   background:
     radial-gradient(
       38rem circle at var(--cursor-x) var(--cursor-y),
-      color-mix(in srgb, var(--accent) 22%, transparent),
+      color-mix(in srgb, var(--accent) 18%, transparent),
       transparent 62%
     );
   opacity: 0.9;

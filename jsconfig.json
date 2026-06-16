@@ -9,6 +9,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["app/**/*.js", "app/**/*.jsx", "data/**/*.js"],
+  "include": ["app/**/*.js", "app/**/*.jsx", "components/**/*.js", "components/**/*.jsx", "data/**/*.js"],
   "exclude": ["node_modules"]
 }
